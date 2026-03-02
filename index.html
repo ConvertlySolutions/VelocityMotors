@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velocity Motors | Exotic & Sports Car Dealership</title>
+    <meta
+      name="description"
+      content="Velocity Motors is a premium sports-car dealership offering curated exotics, performance coupes, and supercars. Experience speed, luxury, and service."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-gradient"></div>
+    <header class="site-header">
+      <div class="logo">
+        <span class="logo-mark">V</span>
+        <span class="logo-text">Velocity Motors</span>
+      </div>
+      <nav class="nav">
+        <button class="nav-link" data-scroll-to="inventory">Inventory</button>
+        <button class="nav-link" data-scroll-to="experience">Experience</button>
+        <button class="nav-link" data-scroll-to="testimonials">Clients</button>
+        <button class="nav-link" data-scroll-to="visit">Visit</button>
+      </nav>
+      <a href="#visit" class="primary-btn primary-btn--ghost">Book a Viewing</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="hero-content">
+          <p class="eyebrow reveal">Premium Sports-Car Dealership</p>
+          <h1 class="hero-title reveal">
+            Performance
+            <span class="hero-title-accent">without compromise.</span>
+          </h1>
+          <p class="hero-subtitle reveal">
+            Curated exotics, precision-tuned sports cars, and a white-glove
+            buying experience built for drivers who demand more.
+          </p>
+          <div class="hero-actions reveal">
+            <a href="#inventory" class="primary-btn">View Featured Inventory</a>
+            <button class="secondary-btn" data-scroll-to="experience">
+              Explore the Experience
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-car">
+            <div class="hero-car-base"></div>
+            <div class="hero-car-glow"></div>
+            <img
+              src="images/ferrari.webp"
+              alt="Ferrari front view in a light showroom"
+              class="hero-car-image"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="hero-strip">
+            <span class="hero-strip-label">Featured Marques</span>
+            <div class="hero-strip-marques">
+              <span>Ferrari</span>
+              <span>Lamborghini</span>
+              <span>Porsche</span>
+              <span>McLaren</span>
+              <span>Aston Martin</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section inventory" id="inventory">
+        <div class="section-header reveal">
+          <h2>Featured Inventory</h2>
+          <p>
+            Handpicked performance icons — low mileage, pristine history, fully
+            inspected, and ready for your next drive.
+          </p>
+        </div>
+
+        <div class="inventory-grid">
+          <article class="car-card reveal">
+            <div class="car-media">
+              <img
+                src="images/lambo.webp"
+                alt="Lamborghini Huracán in a studio"
+                loading="lazy"
+              />
+              <span class="car-badge">New Arrival</span>
+            </div>
+            <div class="car-body">
+              <h3>Lamborghini Huracán Evo</h3>
+              <p class="car-meta">2022 • 3,200 miles • AWD • V10</p>
+              <p class="car-price">$298,000</p>
+              <div class="car-tags">
+                <span>Track Mode</span>
+                <span>Carbon Package</span>
+                <span>Sport Exhaust</span>
+              </div>
+              <button class="ghost-btn">Reserve this car</button>
+            </div>
+          </article>
+
+          <article class="car-card reveal">
+            <div class="car-media">
+              <img
+                src="images/ferrari.webp"
+                alt="Ferrari 488 Pista on the road"
+                loading="lazy"
+              />
+              <span class="car-badge car-badge--dark">Collector Spec</span>
+            </div>
+            <div class="car-body">
+              <h3>Ferrari 488 Pista</h3>
+              <p class="car-meta">2020 • 4,100 miles • RWD • V8 Twin-Turbo</p>
+              <p class="car-price">$452,000</p>
+              <div class="car-tags">
+                <span>Racing Livery</span>
+                <span>Lift System</span>
+                <span>Ceramic Brakes</span>
+              </div>
+              <button class="ghost-btn">Book a test drive</button>
+            </div>
+          </article>
+
+          <article class="car-card reveal">
+            <div class="car-media">
+              <img
+                src="images/porsche.webp"
+                alt="Porsche 911 Turbo S in motion"
+                loading="lazy"
+              />
+              <span class="car-badge">Certified</span>
+            </div>
+            <div class="car-body">
+              <h3>Porsche 911 Turbo S</h3>
+              <p class="car-meta">2021 • 6,500 miles • AWD • Flat-6</p>
+              <p class="car-price">$238,500</p>
+              <div class="car-tags">
+                <span>Sport Chrono</span>
+                <span>Aero Kit</span>
+                <span>BOSE Audio</span>
+              </div>
+              <button class="ghost-btn">View full details</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section experience" id="experience">
+        <div class="section-split">
+          <div class="section-copy reveal">
+            <h2>The Velocity Experience</h2>
+            <p>
+              From your first inquiry to the moment you drive off the lot,
+              everything is tailored to feel effortless, precise, and personal.
+            </p>
+            <div class="pill-list">
+              <div class="pill reveal">
+                <h3>Curated Inventory</h3>
+                <p>
+                  Every vehicle is sourced from trusted networks, verified, and
+                  inspected by our master technicians.
+                </p>
+              </div>
+              <div class="pill reveal">
+                <h3>Private Showroom</h3>
+                <p>
+                  Schedule a one-on-one viewing in our ambient, gallery-style
+                  showroom with zero pressure.
+                </p>
+              </div>
+              <div class="pill reveal">
+                <h3>White-Glove Delivery</h3>
+                <p>
+                  Enclosed transport, personalized handover, and nationwide
+                  delivery options tailored to your schedule.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="experience-panel reveal">
+            <div class="experience-video-placeholder">
+              <div class="play-pulse"></div>
+              <button class="play-button" aria-label="Play showroom experience video">
+                <span></span>
+              </button>
+              <p>Showroom walk-through (1:18)</p>
+            </div>
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="timeline-dot"></span>
+                <div class="timeline-content">
+                  <h4>01 — Discover</h4>
+                  <p>Share your ideal spec and we present tailored options within 24 hours.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-dot"></span>
+                <div class="timeline-content">
+                  <h4>02 — Configure</h4>
+                  <p>Review pricing, options, and trade-in value with total transparency.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-dot"></span>
+                <div class="timeline-content">
+                  <h4>03 — Drive</h4>
+                  <p>Finalize paperwork digitally and take delivery where it suits you best.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonials" id="testimonials">
+        <div class="section-header reveal">
+          <h2>Trusted by Performance Enthusiasts</h2>
+          <p>
+            Enthusiasts, collectors, and first-time supercar buyers rely on
+            Velocity for transparency, care, and unforgettable deliveries.
+          </p>
+        </div>
+
+        <div class="testimonial-row">
+          <article class="testimonial-card reveal">
+            <p class="testimonial-quote">
+              “From first call to delivery, the process felt as refined as the
+              car itself. Every detail was anticipated.”
+            </p>
+            <p class="testimonial-name">Alex R.</p>
+            <p class="testimonial-meta">Ferrari 488 Pista • Chicago</p>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <p class="testimonial-quote">
+              “They sourced my dream spec in under two weeks and kept me updated
+              at every turn. Truly white-glove.”
+            </p>
+            <p class="testimonial-name">Jordan M.</p>
+            <p class="testimonial-meta">Porsche 911 Turbo S • Austin</p>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <p class="testimonial-quote">
+              “The showroom experience was incredible — relaxed, immersive, and
+              zero pressure. I’ll be back for the next one.”
+            </p>
+            <p class="testimonial-name">Priya K.</p>
+            <p class="testimonial-meta">Lamborghini Huracán Evo • Miami</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section visit" id="visit">
+        <div class="section-split">
+          <div class="visit-copy reveal">
+            <h2>Book a Private Viewing</h2>
+            <p>
+              Share a few details and our concierge team will confirm your
+              appointment within one business day.
+            </p>
+            <ul class="visit-highlights">
+              <li>Dedicated product specialist</li>
+              <li>Curated vehicle line-up based on your preferences</li>
+              <li>Complimentary valuation for your current vehicle</li>
+            </ul>
+          </div>
+
+          <form class="visit-form reveal" autocomplete="on">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Jordan Miles" />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="you@example.com"
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="location">Preferred showroom</label>
+                <select id="location" name="location">
+                  <option>Los Angeles</option>
+                  <option>Miami</option>
+                  <option>New York</option>
+                  <option>Chicago</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="date">Preferred date</label>
+                <input id="date" name="date" type="date" />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="interest">What are you interested in?</label>
+              <input
+                id="interest"
+                name="interest"
+                type="text"
+                placeholder="e.g. 911 Turbo S, V10, track-focused"
+              />
+            </div>
+            <div class="form-field">
+              <label for="notes">Anything else we should know?</label>
+              <textarea
+                id="notes"
+                name="notes"
+                rows="3"
+                placeholder="Tell us how you drive, your ideal spec, or timing."
+              ></textarea>
+            </div>
+            <button type="submit" class="primary-btn primary-btn--full">
+              Request my viewing
+            </button>
+            <p class="form-footnote">
+              No spam, ever. A real specialist will reply with tailored options.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <div class="logo">
+            <span class="logo-mark">V</span>
+            <span class="logo-text">Velocity Motors</span>
+          </div>
+          <p>Exotic and sports car dealership for drivers who expect more.</p>
+        </div>
+        <div class="footer-columns">
+          <div class="footer-column">
+            <h4>Showrooms</h4>
+            <ul>
+              <li>Los Angeles</li>
+              <li>Miami</li>
+              <li>New York</li>
+              <li>Chicago</li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Contact</h4>
+            <ul>
+              <li>+1 (555) 013-2045</li>
+              <li>concierge@velocitymotors.com</li>
+              <li>Instagram · @velocity.motors</li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Hours</h4>
+            <ul>
+              <li>Mon–Fri · 10am–7pm</li>
+              <li>Sat · 11am–5pm</li>
+              <li>Sun · By appointment only</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Velocity Motors. All rights reserved.</span>
+        <span>Designed for performance.</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
